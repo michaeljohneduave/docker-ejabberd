@@ -1,4 +1,6 @@
 FROM debian:jessie
+FROM nodesource/jessie:6.2.0
+
 MAINTAINER Rafael Römhild <rafael@roemhild.de>
 
 ENV EJABBERD_BRANCH=16.04 \
